@@ -1,0 +1,1 @@
+cmd_/mnt/d/MyProjects/examples/test2/hello.ko := ccache arm-linux-gnueabihf-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /mnt/d/MyProjects/examples/test2/hello.ko /mnt/d/MyProjects/examples/test2/hello.o /mnt/d/MyProjects/examples/test2/hello.mod.o ;  true
